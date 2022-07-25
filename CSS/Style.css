@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {color: #F183BB;
+font-family: 'Euphoria Script', cursive; 
+text-align: center;
+font-size:7rem; 
+font-weight: bold; }
+
+h2 {color: #F183BB; 
+}
+
+
+body {color: #F183BB;
+    background-color:#BCE4D3 ;
+    background-image: url(../Imag/imagenfondochocoagua.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+li {list-style-type: none;
+}
+
+a { 
+    color: #b545e9; 
+    text-decoration:none; 
+    font-size: 18px;
+}
+
+#footer { color: #b545e9;
+}
+
+.facebookIcono{
+    width: 50px;
+}
+
+.instagramIcono{
+    width: 50px;
+}
+
+.facebookIconoContacto{
+    width: 20px;
+}
+
+.instagramIconoContacto{
+    width: 20px;
+}
+
+/*Producto*/
+
+.headerProducto {
+    display: flex;
+ justify-content: flex-end;
+ align-items: center;
+}
+
+.padreCaja{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    gap: 10px; 
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+/* BOX DE PRODUCTOS*/
+.tortaPiñata {
+    background-color: antiquewhite;
+    border: 1px black solid;
+    padding: 20px;
+    margin: 50px;
+    width:400px;
+    height: 200px; 
+}
+
+.tortaPiñataTresPisos {
+    background-color: antiquewhite;
+    border: 1px black solid;
+    padding: 20px;
+    margin: 50px;
+    width:400px;
+    height: 200px; 
+} 
+
+.smashFlower {
+    background-color: antiquewhite;
+    border: 1px black solid;
+    padding: 20px;
+    margin: 50px;
+    width:400px;
+    height: 200px; 
+}
+
+.tabletasChocolate {
+    background-color: antiquewhite;
+    border: 1px black solid;
+    padding: 20px;
+    margin: 50px;
+    width:400px;
+    height: 200px; 
+}
+
+.bombones {
+    background-color: antiquewhite;
+    border: 1px black solid;
+    padding: 20px;
+    margin: 50px;
+    width:400px;
+    height: 200px; 
+}
+
+.bombasDeChocolateCaliente{
+    background-color: antiquewhite;
+    border: 1px black solid;
+    padding: 20px;
+    margin: 50px;
+    width:400px;
+    height: 200px; 
+}
+
+.smashHeart {
+    background-color: antiquewhite;
+    border: 1px black solid;
+    padding: 20px;
+    margin: 50px;
+    width:400px;
+    height: 200px; 
+}
+
+/* IMAGENES */
+
+.encabezado {
+    width: 150px;
+}
+    
+.imagenStich {
+       width: 45% ;
+     
+}
+.imagenDeTortaPiñata {
+    width: 40%;
+    height: 80%;
+}
+
+.imagenDeTortaPiñataTresPisos {
+    width: 40%;
+    height: 80%;
+}
+
+.imagenChocoFlor{
+    width: 40%;
+    height: 80%;
+}
+
+
+.imagenChocoTableta{
+    width: 40%;
+    height: 80%;
+}
+
+.imagenBombones {
+    width: 40%;
+    height: 80%;
+}
+
+
+.imagenBombasDeChocoCaliente{
+    width: 40%;
+    height: 80%
+}
+
+.imagenCoraChoco{
+    width: 40%;
+    height: 80%;
+}
+
+
+
+/* ENLACES CON LAS DEMAS PAGINAS*/
+
+.inicioPagPrincipal{
+    background-color:#FBC2FF;
+    color: #b545e9;
+    padding: 15px;
+    margin: 30px;
+    border: 2px black solid;
+    border-radius: 10%;
+    display: inline-block;
+    margin: 10px;
+    }
+.productoPagPrincipal{
+    background-color:#FBC2FF;
+    color: #b545e9;
+    padding: 15px;
+    margin: 30px;
+    border: 2px black solid;
+    border-radius: 10%;
+    display: inline-block;
+    margin: 10px;
+   
+}
+
+.preguntasFrecuentesPagPrincipal{
+    background-color:#FBC2FF;
+    color: #b545e9;
+    padding: 15px;
+    margin: 30px;
+    border: 2px black solid; 
+    border-radius: 10%;
+    display: inline-block;
+    margin: 10px;
+}
+.quienesSomosPagPrincipal{
+background-color:#FBC2FF;
+color: #b545e9;
+padding: 15px;
+margin: 30px;
+border: 2px black solid; 
+border-radius: 10%;
+display: inline-block;
+margin: 10px;
+
+}
+
+.contactoPagPrincipal{
+background-color:#FBC2FF;
+color: #b545e9;
+padding: 15px;
+margin: 30px;
+border: 2px black solid; 
+border-radius: 10%;
+display: inline-block;
+margin: 10px;
+}
+
+/*NAVEGADORES*/
+
+.navegadores {
+background-color: #febedf;
+    border: 2px black solid;
+    width: 100%;
+    
+}
+
+.facebook {
+background-color:#FBC2FF;
+color: #ff67dc;
+padding: 15px;
+margin: 30px;
+border: 2px black solid;
+display: inline-block;
+margin: 10px;
+font-size:10px;
+}
+
+.instagram {
+background-color:#FBC2FF;
+color:#ff67dc ;
+padding: 15px;
+margin: 30px;
+border: 2px black solid;
+display: inline-block;
+margin: 10px;
+font-size: 10px;
+}
+
+/* INICIO */
+
+.cajaGiganteInicio {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "imagen imagen imagen"
+    "nav footer footer"
+    ;
+}
+
+.headerInicio{
+    grid-area: header;
+}
+
+.imagen {
+    grid-area: imagen;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.footer { 
+    grid-area: footer;
+}
+
+
+
+.parteSuperior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*MOBILE*/
+@media (min-width:480px) {
+    .cajaGiganteInicio {
+        display: grid;
+        grid-template-areas:
+        "header header header"
+        "imagen imagen imagen"
+        "nav footer footer"
+        ;
+        gap: 10px;
+    }
+    }
+/*TABLET*/
+ @media (min-width:768px) {
+        .cajaGiganteInicio {
+            display: grid;
+            grid-template-areas:
+            "header header header"
+            "imagen imagen imagen"
+            "nav footer footer"
+            ;
+            gap: 10px;
+        }
+        }
+
+/*DESKTOP*/
+ @media (min-width:1024px) {
+    .cajaGiganteInicio {
+        display: grid;
+        grid-template-areas:
+        "header header header"
+        "imagen imagen imagen"
+        "nav footer footer"
+        ;
+        gap: 10px;
+    }
+    }
+
+
+    /* PRODUCTO */
+
+.contenedorGiganteProducto {
+    display: grid;
+    grid-template-areas:
+    "botones header"
+    "main main"
+    "nav footer"
+    ;
+}
+
+.headerProducto {
+    grid-area: header;
+}
+
+.enlacesDePaginaPrincipal {
+    grid-area: botones;
+}
+
+.mainProducto{
+    grid-area: main;
+}
+
+.principioPagina {
+    grid-area:nav;
+}
+
+.footer { 
+    grid-area: footer;
+}
+
+/*MOBILE*/
+@media (max-width:480px) {
+    .contenedorGiganteProducto {
+        display: grid;
+        grid-template-areas:
+        "header"
+        "botones"
+        "main"
+        "nav"
+        "footer"
+        ;
+            gap: 10px;
+    }
+    }
+    
+/*TABLET*/
+ @media (min-width:768px) {
+    .contenedorGiganteProducto {
+        display: grid;
+        grid-template-areas:
+        "botones header"
+        "main main"
+        "nav footer";
+            gap: 10px;
+        }
+        }
+
+/*DESKTOP*/
+ @media (min-width:1024px) {
+    .contenedorGiganteProducto {
+        display: grid;
+        grid-template-areas:
+        "botones header"
+        "main main"
+        "nav footer"
+        ;
+        gap: 10px;
+    }
+    }
